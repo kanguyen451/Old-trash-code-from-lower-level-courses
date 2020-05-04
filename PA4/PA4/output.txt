@@ -1,0 +1,7 @@
+USER COMMAND
+_windowserver /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+kim /Applications/Firefox.app/Contents/MacOS/firefox
+kim /Applications/Firefox.app/Contents/MacOS/plugin-container.app/Contents/MacOS/plugin-container
+kim /Applications/Google
+kim /Applications/Google
+kim /Applications/Spotify.app/Contents/Frameworks/Spotify

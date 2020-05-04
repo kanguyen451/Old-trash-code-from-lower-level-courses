@@ -1,0 +1,36 @@
+#define HEADER
+#indef HEADER
+#include <iostream>
+#include <signal.h>
+#include <cstring>
+#include <string>
+#include <stdio.h>
+#include <stdlib.h>
+#include <sys/wait.h>
+#include <sys/types.h> 
+#include <unistd.h> 
+#include <errno.h>
+#include <fcntl.h> 
+#include <sys/stat.h>
+#include <semaphore.h>
+#include <iostream>
+using namespace std;
+class KernelSemaphore{
+    string name;
+    sem_t* sem;
+public:
+    KernelSemaphore (string _name, int _init_value){
+        name=_name;
+        sem_open(name.c_str(), 0664, O_CREAT, _init_value);
+    }
+    void P(){
+        sem_wait(sem);
+    }
+    void V(){
+        sem_post(sem);
+    }
+    ~KernelSemaphore ();
+};
+
+
+#endif /* HEADER_H */

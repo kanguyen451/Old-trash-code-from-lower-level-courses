@@ -1,0 +1,351 @@
+USER               PID  %CPU %MEM      VSZ    RSS   TT  STAT STARTED      TIME COMMAND
+kim                395   6.8  0.6  7477520  46848   ??  S     5:19PM  26:38.20 /Applications/Firefox.app/Contents/MacOS/plugin-container.app/Contents/MacOS/plugin-container -childID 2 -isForBrowser -prefsLen 6877 -prefMapSize 209864 -sbStartup -sbAppPath /Applications/Firefox.app -sbLevel 3 -sbAllowAudio -sbAllowWindowServer -parentBuildID 20191030021342 -greomni /Applications/Firefox.app/Contents/Resources/omni.ja -appomni /Applications/Firefox.app/Contents/Resources/browser/omni.ja -appdir /Applications/Firefox.app/Contents/Resources/browser -profile /Users/kim/Library/Application Support/Firefox/Profiles/eog4a9rv.default-release 333 gecko-crash-server-pipe.333 org.mozilla.machname.1241545051 tab
+kim               1716   3.9  1.6  5135996 130460   ??  S     5:20AM   2:14.11 /Applications/Google Chrome.app/Contents/MacOS/Google Chrome
+kim                333   3.3  4.2  8524364 354588   ??  R     5:19PM  43:09.86 /Applications/Firefox.app/Contents/MacOS/firefox
+kim               1733   2.7  0.2  4792128  19132   ??  S     5:21AM   0:15.02 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/78.0.3904.87/Helpers/Google Chrome Helper (Renderer).app/Contents/MacOS/Google Chrome Helper (Renderer) --type=renderer --field-trial-handle=1718379636,2143933365673988013,10006179957102759078,131072 --lang=en-US --metrics-client-id=394b2b50-e409-4050-bb04-c261ed70a6c1 --extension-process --disable-client-side-phishing-detection --enable-auto-reload --num-raster-threads=2 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --service-request-channel-token=12683980766941990286 --renderer-client-id=6 --no-v8-untrusted-code-mitigations --seatbelt-client=22
+kim                461   2.5  2.0  4992280 164256   ??  S     5:19PM   2:38.24 /Applications/Spotify.app/Contents/Frameworks/Spotify Helper (Renderer).app/Contents/MacOS/Spotify Helper (Renderer) --type=renderer --log-file=/Users/kim/Library/Logs/Spotify_debug.log --field-trial-handle=1718379636,12195381597017926251,1075787567267432045,131072 --disable-features=ExtendedMouseButtons --lang=en --log-file=/Users/kim/Library/Logs/Spotify_debug.log --log-severity=disable --product-version=Spotify/1.1.18.611 --disable-scroll-bounce --disable-spell-checking --num-raster-threads=2 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --service-request-channel-token=16043728545057109030 --renderer-client-id=4 --seatbelt-client=53
+kim               1725   0.4  0.2  4573392  15768   ??  S     5:21AM   0:15.98 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/78.0.3904.87/Helpers/Google Chrome Helper.app/Contents/MacOS/Google Chrome Helper --type=utility --field-trial-handle=1718379636,2143933365673988013,10006179957102759078,131072 --lang=en-US --service-sandbox-type=network --metrics-client-id=394b2b50-e409-4050-bb04-c261ed70a6c1 --service-request-channel-token=16029679905322705357
+kim                449   0.3  0.7  5252548  61976   ??  S     5:19PM   6:33.64 /Applications/Spotify.app/Contents/MacOS/Spotify --autostart
+_locationd          83   0.2  0.1  4345308   8360   ??  Ss    5:18PM   0:36.86 /usr/libexec/locationd
+_windowserver      156   0.1  0.4  5845476  34968   ??  Ss    5:18PM  22:27.54 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer -daemon
+kim               1712   0.1  5.4  7893312 449744   ??  S     5:20AM   0:13.21 /Applications/Firefox.app/Contents/MacOS/plugin-container.app/Contents/MacOS/plugin-container -childID 17 -isForBrowser -prefsLen 9284 -prefMapSize 209864 -sbStartup -sbAppPath /Applications/Firefox.app -sbLevel 3 -sbAllowAudio -sbAllowWindowServer -parentBuildID 20191030021342 -greomni /Applications/Firefox.app/Contents/Resources/omni.ja -appomni /Applications/Firefox.app/Contents/Resources/browser/omni.ja -appdir /Applications/Firefox.app/Contents/Resources/browser -profile /Users/kim/Library/Application Support/Firefox/Profiles/eog4a9rv.default-release 333 gecko-crash-server-pipe.333 org.mozilla.machname.1910044462 tab
+kim                924   0.1  0.5  5043328  44920   ??  S     7:52PM   1:29.93 /Applications/Utilities/Terminal.app/Contents/MacOS/Terminal
+root              1846   0.0  0.1  4334800   8088   ??  Ss   10:09AM   0:00.12 /usr/libexec/sandboxd
+kim               1815   0.0  0.0  4332628   1988   ??  Ss    8:40AM   0:00.33 /System/Library/PrivateFrameworks/IMFoundation.framework/XPCServices/IMRemoteURLConnectionAgent.xpc/Contents/MacOS/IMRemoteURLConnectionAgent
+kim               1809   0.0  0.1  4722120   4376   ??  S     6:41AM   0:00.22 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/78.0.3904.87/Helpers/Google Chrome Helper (Renderer).app/Contents/MacOS/Google Chrome Helper (Renderer) --type=renderer --field-trial-handle=1718379636,2143933365673988013,10006179957102759078,131072 --lang=en-US --metrics-client-id=394b2b50-e409-4050-bb04-c261ed70a6c1 --disable-client-side-phishing-detection --enable-auto-reload --num-raster-threads=2 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --service-request-channel-token=17566842683010311041 --renderer-client-id=44 --no-v8-untrusted-code-mitigations --seatbelt-client=203
+kim               1808   0.0  0.0  4316568    536   ??  S     6:41AM   0:00.10 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared -s mdworker -c MDSImporterWorker -m com.apple.mdworker.shared
+kim               1805   0.0  0.1  4329968  10596   ??  S     6:41AM   0:00.23 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared -s mdworker -c MDSImporterWorker -m com.apple.mdworker.shared
+kim               1794   0.0  0.0  4304656    424   ??  S     5:30AM   0:00.05 /System/Library/PrivateFrameworks/CoreCDP.framework/Versions/A/Resources/cdpd
+kim               1793   0.0  0.0  4355300   1252   ??  S     5:30AM   0:00.39 /System/Library/PrivateFrameworks/CloudServices.framework/Versions/A/XPCServices/com.apple.sbd.xpc/Contents/MacOS/com.apple.sbd
+kim               1792   0.0  0.0  4304712    540   ??  S     5:30AM   0:00.07 /System/Library/CoreServices/EscrowSecurityAlert.app/Contents/MacOS/EscrowSecurityAlert
+kim               1771   0.0  0.0  4354304   2344   ??  S     5:23AM   0:00.23 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared -s mdworker -c MDSImporterWorker -m com.apple.mdworker.shared
+kim               1763   0.0  0.0  4338936   1408   ??  S     5:21AM   0:00.57 /System/Library/PrivateFrameworks/CallHistory.framework/Support/CallHistorySyncHelper
+kim               1762   0.0  0.0  4305216    444   ??  S     5:21AM   0:00.03 /System/Library/Frameworks/MediaAccessibility.framework/Versions/A/XPCServices/com.apple.accessibility.mediaaccessibilityd.xpc/Contents/MacOS/com.apple.accessibility.mediaaccessibilityd
+kim               1758   0.0  0.0  4305204    464   ??  S     5:21AM   0:00.03 /System/Library/PrivateFrameworks/ToneLibrary.framework/Versions/A/XPCServices/com.apple.tonelibraryd.xpc/Contents/MacOS/com.apple.tonelibraryd
+kim               1757   0.0  0.0  4332612   1760   ??  Ss    5:21AM   0:00.11 /System/Library/PrivateFrameworks/IMFoundation.framework/XPCServices/IMRemoteURLConnectionAgent.xpc/Contents/MacOS/IMRemoteURLConnectionAgent
+kim               1756   0.0  0.0  4367288   2620   ??  S     5:21AM   0:00.51 /usr/libexec/avconferenced
+kim               1752   0.0  0.0  4334464    528   ??  S     5:21AM   0:00.69 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared -s mdworker -c MDSImporterWorker -m com.apple.mdworker.shared
+kim               1751   0.0  0.0  4335356    528   ??  S     5:21AM   0:00.60 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared -s mdworker -c MDSImporterWorker -m com.apple.mdworker.shared
+kim               1750   0.0  0.0  4336108    500   ??  S     5:21AM   0:00.55 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared -s mdworker -c MDSImporterWorker -m com.apple.mdworker.shared
+kim               1745   0.0  0.0  4304916      8   ??  Ss    5:21AM   0:00.02 /System/Library/Frameworks/AudioToolbox.framework/XPCServices/com.apple.audio.SandboxHelper.xpc/Contents/MacOS/com.apple.audio.SandboxHelper
+kim               1744   0.0  0.0  4557140   2744   ??  S     5:21AM   0:01.05 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/78.0.3904.87/Helpers/Google Chrome Helper.app/Contents/MacOS/Google Chrome Helper --type=utility --field-trial-handle=1718379636,2143933365673988013,10006179957102759078,131072 --lang=en-US --service-sandbox-type=audio --message-loop-type-ui --metrics-client-id=394b2b50-e409-4050-bb04-c261ed70a6c1 --service-request-channel-token=8930091564067095166 --seatbelt-client=137
+kim               1735   0.0  0.1  4754704   7636   ??  S     5:21AM   0:00.32 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/78.0.3904.87/Helpers/Google Chrome Helper (Renderer).app/Contents/MacOS/Google Chrome Helper (Renderer) --type=renderer --field-trial-handle=1718379636,2143933365673988013,10006179957102759078,131072 --lang=en-US --metrics-client-id=394b2b50-e409-4050-bb04-c261ed70a6c1 --extension-process --disable-client-side-phishing-detection --enable-auto-reload --num-raster-threads=2 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --service-request-channel-token=1692220261722348185 --renderer-client-id=8 --no-v8-untrusted-code-mitigations --seatbelt-client=98
+kim               1734   0.0  0.1  4751632   9068   ??  S     5:21AM   0:00.43 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/78.0.3904.87/Helpers/Google Chrome Helper (Renderer).app/Contents/MacOS/Google Chrome Helper (Renderer) --type=renderer --field-trial-handle=1718379636,2143933365673988013,10006179957102759078,131072 --lang=en-US --metrics-client-id=394b2b50-e409-4050-bb04-c261ed70a6c1 --extension-process --disable-client-side-phishing-detection --enable-auto-reload --num-raster-threads=2 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --service-request-channel-token=1631983261601398805 --renderer-client-id=7 --no-v8-untrusted-code-mitigations --seatbelt-client=85
+kim               1732   0.0  1.1 15336508  89744   ??  S     5:21AM   0:08.18 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/78.0.3904.87/Helpers/Google Chrome Helper (Renderer).app/Contents/MacOS/Google Chrome Helper (Renderer) --type=renderer --field-trial-handle=1718379636,2143933365673988013,10006179957102759078,131072 --lang=en-US --metrics-client-id=394b2b50-e409-4050-bb04-c261ed70a6c1 --extension-process --disable-client-side-phishing-detection --enable-auto-reload --num-raster-threads=2 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --service-request-channel-token=17606222529318754550 --renderer-client-id=5 --no-v8-untrusted-code-mitigations --seatbelt-client=98
+kim               1730   0.0  0.5  4785284  38336   ??  S     5:21AM   0:11.85 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/78.0.3904.87/Helpers/Google Chrome Helper (Renderer).app/Contents/MacOS/Google Chrome Helper (Renderer) --type=renderer --field-trial-handle=1718379636,2143933365673988013,10006179957102759078,131072 --lang=en-US --metrics-client-id=394b2b50-e409-4050-bb04-c261ed70a6c1 --extension-process --disable-client-side-phishing-detection --enable-auto-reload --num-raster-threads=2 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --service-request-channel-token=12079740027129640123 --renderer-client-id=4 --no-v8-untrusted-code-mitigations --seatbelt-client=92
+kim               1727   0.0  0.0  4305440      8   ??  Ss    5:21AM   0:00.03 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/78.0.3904.87/XPCServices/AlertNotificationService.xpc/Contents/MacOS/AlertNotificationService
+kim               1726   0.0  0.0  4340560    588   ??  Ss    5:21AM   0:00.37 /System/Library/Frameworks/VideoToolbox.framework/Versions/A/XPCServices/VTDecoderXPCService.xpc/Contents/MacOS/VTDecoderXPCService
+kim               1724   0.0  0.4  4703728  35160   ??  S     5:21AM   0:45.48 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/78.0.3904.87/Helpers/Google Chrome Helper (GPU).app/Contents/MacOS/Google Chrome Helper (GPU) --type=gpu-process --field-trial-handle=1718379636,2143933365673988013,10006179957102759078,131072 --metrics-client-id=394b2b50-e409-4050-bb04-c261ed70a6c1 --gpu-preferences=KAAAAAAAAAAgAAAAAAAAAAAAYAAAAAAAEAAAAAAAAAAAAAAAAAAAAOgAAAAcAAAA4AAAAAAAAADoAAAAAAAAAPAAAAAAAAAA+AAAAAAAAAAAAQAAAAAAAAgBAAAAAAAAEAEAAAAAAAAYAQAAAAAAACABAAAAAAAAKAEAAAAAAAAwAQAAAAAAADgBAAAAAAAAQAEAAAAAAABIAQAAAAAAAFABAAAAAAAAWAEAAAAAAABgAQAAAAAAAGgBAAAAAAAAcAEAAAAAAAB4AQAAAAAAAIABAAAAAAAAiAEAAAAAAACQAQAAAAAAAJgBAAAAAAAAoAEAAAAAAACoAQAAAAAAALABAAAAAAAAuAEAAAAAAAAQAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAABgAAABAAAAAAAAAAAAAAAAcAAAAQAAAAAAAAAAAAAAAIAAAAEAAAAAAAAAAAAAAACgAAABAAAAAAAAAAAAAAAAsAAAAQAAAAAAAAAAAAAAANAAAAEAAAAAAAAAABAAAAAAAAABAAAAAAAAAAAQAAAAYAAAAQAAAAAAAAAAEAAAAHAAAAEAAAAAAAAAABAAAACAAAABAAAAAAAAAAAQAAAAoAAAAQAAAAAAAAAAEAAAALAAAAEAAAAAAAAAABAAAADQAAABAAAAAAAAAABAAAAAAAAAAQAAAAAAAAAAQAAAAGAAAAEAAAAAAAAAAEAAAABwAAABAAAAAAAAAABAAAAAgAAAAQAAAAAAAAAAQAAAAKAAAAEAAAAAAAAAAEAAAACwAAABAAAAAAAAAABAAAAA0AAAAQAAAAAAAAAAYAAAAAAAAAEAAAAAAAAAAGAAAABgAAABAAAAAAAAAABgAAAAcAAAAQAAAAAAAAAAYAAAAIAAAAEAAAAAAAAAAGAAAACgAAABAAAAAAAAAABgAAAAsAAAAQAAAAAAAAAAYAAAANAAAA --service-request-channel-token=7179329409038217484
+kim               1720   0.0  0.0  4308020      8   ??  S     5:21AM   0:00.03 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/78.0.3904.87/Helpers/chrome_crashpad_handler --monitor-self-annotation=ptype=crashpad-handler --database=/Users/kim/Library/Application Support/Google/Chrome/Crashpad --metrics-dir=/Users/kim/Library/Application Support/Google/Chrome --url=https://clients2.google.com/cr/report --annotation=channel= --annotation=plat=OS X --annotation=prod=Chrome_Mac --annotation=ver=78.0.3904.87 --handshake-fd=8
+kim               1710   0.0  0.0  4331936    528   ??  Ss    5:20AM   0:00.10 /System/Library/PrivateFrameworks/FMClient.framework/Versions/A/XPCServices/FMIPClientXPCService.xpc/Contents/MacOS/FMIPClientXPCService
+kim               1709   0.0  0.0  4332168    792   ??  S     5:20AM   0:00.12 /usr/libexec/siriknowledged
+kim               1702   0.0  0.0  4333800    908   ??  Ss    5:20AM   0:00.09 /System/Library/Frameworks/iTunesLibrary.framework/Versions/A/XPCServices/com.apple.iTunesLibraryService.xpc/Contents/MacOS/com.apple.iTunesLibraryService
+kim               1699   0.0  0.0  4401948   3748   ??  S     5:20AM   0:08.94 /System/Library/PrivateFrameworks/AssistantServices.framework/Versions/A/Support/assistant_service
+kim               1673   0.0  0.0  4332496   2688   ??  S     3:19AM   0:00.21 /System/Library/PrivateFrameworks/AOSKit.framework/Versions/A/XPCServices/com.apple.iCloudHelper.xpc/Contents/MacOS/com.apple.iCloudHelper
+kim               1652   0.0  0.0  4309700    640   ??  S     2:56AM   0:01.65 /System/Library/PrivateFrameworks/PrintingPrivate.framework/Versions/A/PrintUITool
+kim               1640   0.0  0.0  4330600    516   ??  S     2:41AM   0:00.66 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared -s mdworker -c MDSImporterWorker -m com.apple.mdworker.shared
+kim               1639   0.0  0.5  4337628  38036   ??  S     2:41AM   0:02.60 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared -s mdworker -c MDSImporterWorker -m com.apple.mdworker.shared
+kim               1638   0.0  0.0  4328156    520   ??  S     2:41AM   0:00.45 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared -s mdworker -c MDSImporterWorker -m com.apple.mdworker.shared
+kim               1637   0.0  0.0  4328188    540   ??  S     2:41AM   0:00.51 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared -s mdworker -c MDSImporterWorker -m com.apple.mdworker.shared
+kim               1634   0.0  0.4  4334944  29592   ??  S     2:37AM   0:01.28 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared -s mdworker -c MDSImporterWorker -m com.apple.mdworker.shared
+kim               1633   0.0  0.6  4370240  47724   ??  S     2:37AM   0:02.29 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared -s mdworker -c MDSImporterWorker -m com.apple.mdworker.shared
+kim               1631   0.0  0.4  4366056  35356   ??  S     2:37AM   0:02.00 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared -s mdworker -c MDSImporterWorker -m com.apple.mdworker.shared
+root              1572   0.0  0.0  4337132    620   ??  Ss    1:43AM   0:00.14 /usr/libexec/dprivacyd
+kim               1524   0.0  0.0  4305336      8   ??  S     1:30AM   0:00.04 /System/Library/CoreServices/ReportCrash agent
+kim               1507   0.0  0.0  4364084    520   ??  S     1:14AM   0:00.65 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared -s mdworker -c MDSImporterWorker -m com.apple.mdworker.shared
+kim               1499   0.0  0.0  4304992    836   ??  S     1:12AM   0:00.07 /usr/libexec/assertiond
+kim               1462   0.0  0.0  4367408    528   ??  S    12:28AM   0:00.76 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared -s mdworker -c MDSImporterWorker -m com.apple.mdworker.shared
+kim               1441   0.0  0.0  4296508    804 s001  S    12:10AM   0:00.14 -bash
+root              1440   0.0  0.0  4304644      8 s001  Ss   12:10AM   0:00.03 login -pf kim
+kim               1358   0.0  0.0  4359352    632   ??  Ss   11:10PM   0:00.32 /System/Library/PrivateFrameworks/PhotoLibraryPrivate.framework/Versions/A/Frameworks/PhotoLibraryServices.framework/Versions/A/XPCServices/com.apple.photomodel.xpc/Contents/MacOS/com.apple.photomodel
+kim               1206   0.0  0.0  4370784    516   ??  S     9:47PM   0:04.00 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared -s mdworker -c MDSImporterWorker -m com.apple.mdworker.shared
+kim               1125   0.0  0.0  4860852   1860   ??  Ss    9:00PM   0:00.94 /System/Library/PrivateFrameworks/Lookup.framework/Versions/A/XPCServices/LookupViewService.xpc/Contents/MacOS/LookupViewService
+kim                868   0.0  0.0  4891428   1652   ??  S     7:38PM   0:01.68 /System/Library/CoreServices/OSDUIHelper.app/Contents/MacOS/OSDUIHelper
+root               860   0.0  0.0  4304896      8   ??  Ss    7:31PM   0:00.03 /usr/libexec/applessdstatistics
+kim                824   0.0  0.0  4336380   1620   ??  Ss    7:03PM   0:00.58 /System/Library/PrivateFrameworks/IMFoundation.framework/XPCServices/IMRemoteURLConnectionAgent.xpc/Contents/MacOS/IMRemoteURLConnectionAgent
+root               699   0.0  0.0  4333388    788   ??  S     6:20PM   0:00.14 /usr/libexec/secinitd
+root               698   0.0  0.1  4342068   6008   ??  S     6:20PM   0:01.13 /System/Library/PrivateFrameworks/GeoServices.framework/Versions/A/XPCServices/com.apple.geod.xpc/Contents/MacOS/com.apple.geod
+kim                680   0.0  0.0  4875504   4172   ??  S     6:03PM   0:01.74 /System/Library/Frameworks/LocalAuthentication.framework/Support/coreautha.bundle/Contents/MacOS/coreautha
+kim                679   0.0  0.0  4304836    404   ??  S     6:03PM   0:00.08 /System/Library/PrivateFrameworks/CoreFollowUp.framework/Versions/A/Support/followupd
+kim                654   0.0  0.0  4306348    408   ??  S     5:43PM   0:00.06 /usr/libexec/USBAgent
+root               652   0.0  0.0  4312996   1228   ??  Ss    5:42PM   0:00.10 /usr/libexec/diskmanagementd
+kim                642   0.0  0.0  4331412    548   ??  S     5:39PM   0:00.08 /System/Library/PrivateFrameworks/QuickLookThumbnailing.framework/Support/com.apple.quicklook.ThumbnailsAgent
+kim                632   0.0  0.0  4344012    552   ??  S     5:36PM   0:00.53 /System/Library/Frameworks/ApplicationServices.framework/Frameworks/SpeechSynthesis.framework/Resources/com.apple.speech.speechsynthesisd
+kim                605   0.0  0.1  4339484   4548   ??  S     5:24PM   0:00.77 /usr/libexec/mobileactivationd
+kim                602   0.0  0.0  4334236   1168   ??  S     5:24PM   0:01.90 /System/Library/PrivateFrameworks/AppStoreDaemon.framework/Support/appstoreagent
+kim                600   0.0  0.0  4339336    812   ??  S     5:24PM   0:00.43 /System/Library/Frameworks/ApplicationServices.framework/Frameworks/ATS.framework/Support/atsd
+kim                599   0.0  0.0  4331804    588   ??  Ss    5:24PM   0:00.12 /System/Library/PrivateFrameworks/PhotoLibrary.framework/Versions/A/XPCServices/com.apple.PhotoIngestService.xpc/Contents/MacOS/com.apple.PhotoIngestService
+kim                598   0.0  0.0  4361440   2184   ??  S     5:24PM   0:00.75 /System/Library/PrivateFrameworks/PhotoAnalysis.framework/Versions/A/Support/photoanalysisd
+kim                597   0.0  0.1  4360776   4584   ??  Ss    5:24PM   0:01.43 /System/Library/PrivateFrameworks/PhotoLibraryPrivate.framework/Versions/A/Frameworks/PhotoLibraryServices.framework/Versions/A/XPCServices/com.apple.photomoments.xpc/Contents/MacOS/com.apple.photomoments
+kim                596   0.0  0.1  4372464   8768   ??  S     5:24PM   0:02.74 /System/Library/PrivateFrameworks/PhotoLibraryPrivate.framework/Versions/A/Support/photolibraryd
+kim                594   0.0  0.0  4331952   1464   ??  S     5:24PM   0:00.30 /System/Library/PrivateFrameworks/CloudPhotoServices.framework/Versions/A/Frameworks/CloudPhotosConfigurationXPC.framework/Versions/A/XPCServices/com.apple.CloudPhotosConfiguration.xpc/Contents/MacOS/com.apple.CloudPhotosConfiguration
+kim                592   0.0  0.1  4409828  12312   ??  S     5:24PM   0:05.87 /System/Library/CoreServices/cloudphotosd.app/Contents/MacOS/cloudphotosd
+kim                589   0.0  0.0  4305176      8   ??  Ss    5:23PM   0:00.03 /System/Library/Frameworks/AudioToolbox.framework/XPCServices/com.apple.audio.SandboxHelper.xpc/Contents/MacOS/com.apple.audio.SandboxHelper
+kim                588   0.0  0.0  4336012   2220   ??  S     5:23PM   0:00.27 /usr/libexec/keyboardservicesd
+kim                587   0.0  0.0  4603664   4052   ??  S     5:23PM   0:02.21 /System/Library/Services/AppleSpell.service/Contents/MacOS/AppleSpell
+kim                559   0.0  0.0  4336172   1068   ??  S     5:21PM   0:08.86 /System/Library/CoreServices/SafariSupport.bundle/Contents/MacOS/SafariBookmarksSyncAgent
+kim                548   0.0  0.0  4331304   1452   ??  S     5:20PM   0:00.11 /System/Library/PrivateFrameworks/CommunicationsFilter.framework/CMFSyncAgent
+kim                541   0.0  0.0  4860788   2528   ??  Ss    5:20PM   0:06.09 /System/Library/CoreServices/Siri.app/Contents/XPCServices/SiriNCService.xpc/Contents/MacOS/SiriNCService
+_spotlight         534   0.0  0.0  4305860    416   ??  S     5:20PM   0:00.07 /usr/sbin/distnoted agent
+_spotlight         533   0.0  0.0  4315896    508   ??  S     5:20PM   0:00.22 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared -s mdworker -c MDSImporterWorker -m com.apple.mdworker.shared
+kim                507   0.0  0.0  4348436   1816   ??  S     5:19PM   0:01.72 /System/Library/PrivateFrameworks/CommerceKit.framework/Resources/LaterAgent.app/Contents/MacOS/LaterAgent
+kim                503   0.0  0.0  4333800    876   ??  Ss    5:19PM   0:00.15 /System/Library/Frameworks/iTunesLibrary.framework/Versions/A/XPCServices/com.apple.iTunesLibraryService.xpc/Contents/MacOS/com.apple.iTunesLibraryService
+kim                501   0.0  0.0  4386156    520   ??  Ss    5:19PM   0:00.11 /System/Library/PrivateFrameworks/AssistantServices.framework/Versions/A/XPCServices/media-indexer.xpc/Contents/MacOS/media-indexer
+root               500   0.0  0.0  4332548    764   ??  Ss    5:19PM   0:00.22 /usr/libexec/dmd
+_assetcache        499   0.0  0.0  4336744    600   ??  Ss    5:19PM   0:00.15 /usr/libexec/AssetCache/AssetCache
+kim                498   0.0  0.0  4338184   1352   ??  S     5:19PM   0:00.86 /System/Library/PrivateFrameworks/AssetCacheServices.framework/Versions/A/XPCServices/AssetCacheLocatorService.xpc/Contents/MacOS/AssetCacheLocatorService -a
+kim                497   0.0  0.0  4304712   1008   ??  Ss    5:19PM   0:00.33 /System/Library/PrivateFrameworks/IMFoundation.framework/XPCServices/IMRemoteURLConnectionAgent.xpc/Contents/MacOS/IMRemoteURLConnectionAgent
+_captiveagent      495   0.0  0.0  4306968    668   ??  Ss    5:19PM   0:00.18 /usr/libexec/captiveagent
+_locationd         494   0.0  0.0  4336072   2296   ??  S     5:19PM   0:00.51 /usr/libexec/trustd --agent
+_locationd         493   0.0  0.0  4305192    500   ??  S     5:19PM   0:00.14 /usr/sbin/cfprefsd agent
+_locationd         492   0.0  0.0  4333476    788   ??  S     5:19PM   0:00.15 /usr/libexec/secinitd
+_locationd         491   0.0  0.0  4339580   3152   ??  S     5:19PM   0:00.81 /System/Library/PrivateFrameworks/GeoServices.framework/Versions/A/XPCServices/com.apple.geod.xpc/Contents/MacOS/com.apple.geod
+root               490   0.0  0.0  4335964   1008   ??  Ss    5:19PM   0:00.54 /System/Library/PrivateFrameworks/AuthKit.framework/Versions/A/Support/akd
+kim                489   0.0  0.0  4305920    760   ??  S     5:19PM   0:00.13 /usr/libexec/findmydevice-user-agent
+kim                485   0.0  0.0  4333004    524   ??  S     5:19PM   0:00.14 /System/Library/PrivateFrameworks/CommerceKit.framework/Versions/A/Resources/storelegacy
+root               483   0.0  0.0  4304936    192   ??  Ss    5:19PM   0:00.05 /System/Library/CoreServices/Software Update.app/Contents/Resources/suhelperd
+_softwareupdate    479   0.0  0.0  4360036   1432   ??  Ss    5:19PM   0:00.58 /System/Library/CoreServices/Software Update.app/Contents/Resources/softwareupdated
+kim                474   0.0  0.0  4305896    488   ??  S     5:19PM   0:00.08 /System/Library/CoreServices/Software Update.app/Contents/Resources/softwareupdate_notify_agent
+_spotlight         473   0.0  0.0  4336152    808   ??  S     5:19PM   0:00.72 /usr/libexec/trustd --agent
+kim                469   0.0  0.1  4381256   5172   ??  S     5:19PM   0:02.55 /System/Library/PrivateFrameworks/CoreSuggestions.framework/Versions/A/Support/suggestd
+_applepay          468   0.0  0.0  4332372    868   ??  Ss    5:19PM   0:00.19 /usr/libexec/nfcd
+kim                463   0.0  0.0  4364336   3392   ??  S     5:19PM   0:02.09 /System/Library/CoreServices/PowerChime.app/Contents/MacOS/PowerChime
+kim                460   0.0  0.0  4333572    568   ??  Ss    5:19PM   0:00.11 /System/Library/Frameworks/VideoToolbox.framework/Versions/A/XPCServices/VTDecoderXPCService.xpc/Contents/MacOS/VTDecoderXPCService
+root               459   0.0  0.0  4304928      8   ??  Ss    5:19PM   0:00.01 /usr/libexec/smd
+kim                458   0.0  0.1  4597976  10208   ??  S     5:19PM   0:07.06 /Applications/Spotify.app/Contents/Frameworks/Spotify Helper.app/Contents/MacOS/Spotify Helper --type=utility --field-trial-handle=1718379636,12195381597017926251,1075787567267432045,131072 --disable-features=ExtendedMouseButtons --lang=en --service-sandbox-type=network --use-mock-keychain --log-file=/Users/kim/Library/Logs/Spotify_debug.log --log-severity=disable --product-version=Spotify/1.1.18.611 --lang=en --log-file=/Users/kim/Library/Logs/Spotify_debug.log --service-request-channel-token=7319295657854845514
+kim                457   0.0  0.0  4305752    568   ??  S     5:19PM   0:00.05 /usr/libexec/loginitemregisterd
+kim                456   0.0  0.1  4826656  10384   ??  S     5:19PM   0:25.75 /Applications/Spotify.app/Contents/Frameworks/Spotify Helper (GPU).app/Contents/MacOS/Spotify Helper (GPU) --type=gpu-process --field-trial-handle=1718379636,12195381597017926251,1075787567267432045,131072 --disable-features=ExtendedMouseButtons --log-file=/Users/kim/Library/Logs/Spotify_debug.log --log-severity=disable --product-version=Spotify/1.1.18.611 --lang=en --gpu-preferences=IAAAAAAAAAAgAAAAAAAAAAAAYAAAAAAACAAAAAAAAAAIAQAAIAAAAAABAAAAAAAACAEAAAAAAAAQAQAAAAAAABgBAAAAAAAAIAEAAAAAAAAoAQAAAAAAADABAAAAAAAAOAEAAAAAAABAAQAAAAAAAEgBAAAAAAAAUAEAAAAAAABYAQAAAAAAAGABAAAAAAAAaAEAAAAAAABwAQAAAAAAAHgBAAAAAAAAgAEAAAAAAACIAQAAAAAAAJABAAAAAAAAmAEAAAAAAACgAQAAAAAAAKgBAAAAAAAAsAEAAAAAAAC4AQAAAAAAAMABAAAAAAAAyAEAAAAAAADQAQAAAAAAANgBAAAAAAAA4AEAAAAAAADoAQAAAAAAAPABAAAAAAAA+AEAAAAAAAAQAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAABgAAABAAAAAAAAAAAAAAAAcAAAAQAAAAAAAAAAAAAAAIAAAAEAAAAAAAAAAAAAAACgAAABAAAAAAAAAAAAAAAAsAAAAQAAAAAAAAAAAAAAANAAAAEAAAAAAAAAAAAAAADgAAABAAAAAAAAAAAQAAAAAAAAAQAAAAAAAAAAEAAAAGAAAAEAAAAAAAAAABAAAABwAAABAAAAAAAAAAAQAAAAgAAAAQAAAAAAAAAAEAAAAKAAAAEAAAAAAAAAABAAAACwAAABAAAAAAAAAAAQAAAA0AAAAQAAAAAAAAAAEAAAAOAAAAEAAAAAAAAAAEAAAAAAAAABAAAAAAAAAABAAAAAYAAAAQAAAAAAAAAAQAAAAHAAAAEAAAAAAAAAAEAAAACAAAABAAAAAAAAAABAAAAAoAAAAQAAAAAAAAAAQAAAALAAAAEAAAAAAAAAAEAAAADQAAABAAAAAAAAAABAAAAA4AAAAQAAAAAAAAAAYAAAAAAAAAEAAAAAAAAAAGAAAABgAAABAAAAAAAAAABgAAAAcAAAAQAAAAAAAAAAYAAAAIAAAAEAAAAAAAAAAGAAAACgAAABAAAAAAAAAABgAAAAsAAAAQAAAAAAAAAAYAAAANAAAAEAAAAAAAAAAGAAAADgAAAA== --log-file=/Users/kim/Library/Logs/Spotify_debug.log --service-request-channel-token=14983441145053943684
+kim                455   0.0  0.0  4506524    880   ??  S     5:19PM   0:00.18 /Applications/Spotify.app/Contents/Frameworks/Spotify Helper.app/Contents/MacOS/Spotify Helper --monitor-self-annotation=ptype=crashpad-handler --type=crashpad-handler --max-uploads=5 --max-db-size=20 --max-db-age=5 --database=/Users/kim/Library/Application Support/Spotify/User Data --url=https://crashdump.spotify.com:443/ --annotation=platform=macos --annotation=product=spotify --annotation=version=1.1.18.611 --handshake-fd=8
+_gamecontrollerd   453   0.0  0.0  4305296    860   ??  Ss    5:19PM   0:02.10 /usr/libexec/gamecontrollerd
+kim                451   0.0  0.1  5140172   6904   ??  S     5:19PM   0:09.61 /Applications/Tab Notes Free.app/Contents/MacOS/Tab Notes Free
+kim                447   0.0  0.0  4334656    484   ??  S     5:19PM   0:00.14 /System/Library/PrivateFrameworks/CommerceKit.framework/Versions/A/Resources/storedownloadd
+kim                444   0.0  0.0  4306452    496   ??  S     5:19PM   0:00.08 /System/Library/Frameworks/CryptoTokenKit.framework/ctkd -tw
+kim                443   0.0  0.0  4306008    868   ??  S     5:19PM   0:00.08 /System/Library/Frameworks/CryptoTokenKit.framework/ctkahp.bundle/Contents/MacOS/ctkahp
+kim                442   0.0  0.0  4849180   1788   ??  S     5:19PM   0:00.49 /Users/kim/Library/Application Support/Google/Android File Transfer/Android File Transfer Agent.app/Contents/MacOS/Android File Transfer Agent
+root               441   0.0  0.0  4296516    836   ??  Ss    5:19PM   0:00.07 /usr/libexec/taskgated
+root               440   0.0  0.0  4305976    704   ??  Ss    5:19PM   0:00.06 /System/Library/Frameworks/CryptoTokenKit.framework/ctkahp.bundle/Contents/MacOS/ctkahp -d
+kim                438   0.0  0.0  4352580   1608   ??  S     5:19PM   0:01.47 /usr/libexec/adprivacyd
+kim                437   0.0  0.0  4333456   2376   ??  S     5:19PM   0:01.15 /System/Library/CoreServices/diagnostics_agent
+kim                436   0.0  0.0  4348448   1820   ??  S     5:19PM   0:01.61 /System/Library/PrivateFrameworks/Noticeboard.framework/Versions/A/Resources/nbagent.app/Contents/MacOS/nbagent
+kim                435   0.0  0.0  4332984   2004   ??  S     5:19PM   0:15.46 /System/Library/CoreServices/cloudpaird
+kim                434   0.0  0.1  4340208   5512   ??  S     5:19PM   0:00.83 /usr/libexec/knowledge-agent
+kim                432   0.0  0.0  4860796   1884   ??  S     5:19PM   0:01.76 /System/Library/CoreServices/AirPlayUIAgent.app/Contents/MacOS/AirPlayUIAgent --launchd
+kim                427   0.0  0.0  4348516   3048   ??  S     5:19PM   0:08.97 /System/Library/CoreServices/Siri.app/Contents/MacOS/Siri launchd
+kim                426   0.0  0.0  4332608    768   ??  S     5:19PM   0:00.28 /usr/libexec/dmd
+kim                422   0.0  0.0  4331316   1076   ??  S     5:19PM   0:00.14 /System/Library/CoreServices/SocialPushAgent.app/Contents/MacOS/SocialPushAgent
+kim                419   0.0  0.0  4332336   1836   ??  S     5:19PM   0:01.10 /System/Library/PrivateFrameworks/CoreSpeech.framework/corespeechd
+kim                418   0.0  0.0  4334076    804   ??  S     5:19PM   0:00.84 /System/Library/PrivateFrameworks/CommerceKit.framework/Versions/A/Resources/storeassetd
+kim                417   0.0  0.0  4305260    452   ??  S     5:19PM   0:00.05 /System/Library/Frameworks/ColorSync.framework/Support/colorsync.useragent
+kim                416   0.0  0.0  4350620   2100   ??  S     5:19PM   0:01.95 /System/Library/PrivateFrameworks/CommerceKit.framework/Versions/A/Resources/storeuid.app/Contents/MacOS/storeuid
+kim                415   0.0  0.0  4307444    540   ??  S     5:19PM   0:00.18 /System/Library/PrivateFrameworks/CacheDelete.framework/deleted
+kim                414   0.0  0.0  4343216    612   ??  Ss    5:19PM   0:00.13 /Applications/Xcode.app/Contents/PlugIns/GitHubEnterpriseHostBuiltInExtension.appex/Contents/MacOS/GitHubEnterpriseHostBuiltInExtension
+kim                413   0.0  0.0  4341964    628   ??  Ss    5:19PM   0:00.13 /Applications/Xcode.app/Contents/PlugIns/XcodeBuiltInExtensions.appex/Contents/MacOS/XcodeBuiltInExtensions
+kim                412   0.0  0.0  4343152    620   ??  Ss    5:19PM   0:00.14 /Applications/Xcode.app/Contents/PlugIns/GitLabSelfHostBuiltInExtension.appex/Contents/MacOS/GitLabSelfHostBuiltInExtension
+kim                411   0.0  0.0  4304904    772   ??  Ss    5:19PM   0:00.03 /Applications/Xcode.app/Contents/SharedFrameworks/DVTSourceControl.framework/Versions/A/XPCServices/com.apple.dt.Xcode.sourcecontrol.WorkingCopyScanner.xpc/Contents/MacOS/com.apple.dt.Xcode.sourcecontrol.WorkingCopyScanner
+kim                410   0.0  0.0  4343128    596   ??  Ss    5:19PM   0:00.14 /Applications/Xcode.app/Contents/PlugIns/GitLabHostBuiltInExtension.appex/Contents/MacOS/GitLabHostBuiltInExtension
+kim                409   0.0  0.0  4343212    596   ??  Ss    5:19PM   0:00.15 /Applications/Xcode.app/Contents/PlugIns/BitbucketHostBuiltInExtension.appex/Contents/MacOS/BitbucketHostBuiltInExtension
+kim                408   0.0  0.0  4343176    604   ??  Ss    5:19PM   0:00.13 /Applications/Xcode.app/Contents/PlugIns/GitHubHostBuiltInExtension.appex/Contents/MacOS/GitHubHostBuiltInExtension
+kim                407   0.0  0.0  4343144    576   ??  Ss    5:19PM   0:00.13 /Applications/Xcode.app/Contents/PlugIns/BitbucketServerHostBuiltInExtension.appex/Contents/MacOS/BitbucketServerHostBuiltInExtension
+kim                406   0.0  0.0  4331528    600   ??  Ss    5:19PM   0:00.12 /Applications/Xcode.app/Contents/PlugIns/XCDocumenterExtension.appex/Contents/MacOS/XCDocumenterExtension
+kim                405   0.0  0.0  4305256    500   ??  S     5:19PM   0:00.19 /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/HIServices.framework/Versions/A/XPCServices/com.apple.hiservices-xpcservice.xpc/Contents/MacOS/com.apple.hiservices-xpcservice
+kim                404   0.0  0.0  4361912    900   ??  S     5:19PM   0:02.32 /Applications/Xcode.app/Contents/SharedFrameworks/XCBuild.framework/Versions/A/PlugIns/XCBBuildService.bundle/Contents/MacOS/XCBBuildService
+kim                403   0.0  0.0  4528980   1820   ??  Ss    5:19PM   3:39.00 /Applications/Xcode.app/Contents/SharedFrameworks/SourceKit.framework/Versions/A/XPCServices/com.apple.dt.SKAgent.xpc/Contents/MacOS/com.apple.dt.SKAgent
+kim                402   0.0  0.0  4356728    868   ??  Ss    5:19PM   0:00.21 /Applications/Xcode.app/Contents/Frameworks/IDEFoundation.framework/Versions/A/XPCServices/com.apple.dt.Xcode.KeychainService.xpc/Contents/MacOS/com.apple.dt.Xcode.KeychainService
+kim                401   0.0  0.0  4331884    932   ??  S     5:19PM   0:00.17 /System/Library/PrivateFrameworks/ProtectedCloudStorage.framework/Helpers/ProtectedCloudKeySyncing
+root               400   0.0  0.0  4337432    520   ??  Ss    5:19PM   0:00.57 /System/Library/CoreServices/iconservicesagent runAsRoot
+kim                398   0.0  0.0  4331948    572   ??  S     5:19PM   0:00.20 /usr/libexec/videosubscriptionsd
+kim                397   0.0  0.0  4332956    572   ??  S     5:19PM   0:00.10 /System/Library/CoreServices/Menu Extras/SafeEjectGPUExtra.menu/Contents/XPCServices/SafeEjectGPUService.xpc/Contents/MacOS/SafeEjectGPUService
+kim                396   0.0  0.0  4821292      8   ??  S     5:19PM   0:00.02 SafeEjectGPUAgent
+kim                393   0.0  0.0  4317328      8   ??  Ss    5:19PM   0:00.05 /Applications/Xcode.app/Contents/SharedFrameworks/DVTSourceControl.framework/Versions/A/XPCServices/com.apple.dt.Xcode.sourcecontrol.SSHHelper.xpc/Contents/MacOS/com.apple.dt.Xcode.sourcecontrol.SSHHelper
+kim                392   0.0  0.0  4336016    620   ??  S     5:19PM   0:00.15 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/GPUToolsPlatform/GPUToolsAgent.app/Contents/MacOS/GPUToolsAgent
+kim                391   0.0  0.0  4335860   2736   ??  Ss    5:19PM   0:05.44 /System/Library/PrivateFrameworks/CloudDocs.framework/PlugIns/com.apple.CloudDocs.MobileDocumentsFileProvider.appex/Contents/MacOS/com.apple.CloudDocs.MobileDocumentsFileProvider
+kim                388   0.0  0.1  4347856   6360   ??  S     5:19PM   0:03.48 /System/Library/CoreServices/WiFiAgent.app/Contents/MacOS/WiFiAgent
+kim                387   0.0  0.0  4332104   2240   ??  S     5:19PM   0:06.82 /System/Library/PrivateFrameworks/FileProvider.framework/Support/fileproviderd
+root               386   0.0  0.0  4335568   1560   ??  Ss    5:19PM   0:00.78 /usr/libexec/findmydeviced
+kim                384   0.0  0.0  4305304    484   ??  S     5:19PM   0:00.10 /System/Library/Frameworks/ApplicationServices.framework/Frameworks/PrintCore.framework/Versions/A/printtool agent
+kim                383   0.0  0.0  4333208    756   ??  S     5:19PM   0:00.23 /System/Library/Frameworks/AudioToolbox.framework/AudioComponentRegistrar
+kim                381   0.0  0.0  4305232    448   ??  S     5:19PM   0:00.06 /System/Library/CoreServices/APFSUserAgent
+kim                380   0.0  0.0  4332948    544   ??  S     5:19PM   0:00.15 /System/Library/PrivateFrameworks/FamilyCircle.framework/Versions/A/Resources/familycircled
+kim                379   0.0  0.0  4336456    928   ??  Ss    5:19PM   0:00.30 /System/Library/PrivateFrameworks/CloudDocsDaemon.framework/XPCServices/ContainerMetadataExtractor.xpc/Contents/MacOS/ContainerMetadataExtractor
+kim                378   0.0  0.0  4862472   3024   ??  Ss    5:19PM   0:02.47 /System/Library/Input Methods/PressAndHold.app/Contents/PlugIns/PAH_Extension.appex/Contents/MacOS/PAH_Extension
+kim                377   0.0  0.0  4334888   2092   ??  S     5:19PM   0:01.28 /System/Library/Frameworks/InputMethodKit.framework/Resources/imklaunchagent
+kim                376   0.0  0.0  4862004   1864   ??  S     5:19PM   0:01.68 /Library/Developer/PrivateFrameworks/CoreSimulator.framework/Versions/A/XPCServices/com.apple.CoreSimulator.CoreSimulatorService.xpc/Contents/MacOS/com.apple.CoreSimulator.CoreSimulatorService
+kim                374   0.0  0.0  4332372    552   ??  S     5:19PM   0:00.28 /System/Library/CoreServices/pbs
+kim                373   0.0  0.0  4304736    480   ??  S     5:19PM   0:00.07 /System/Library/PrivateFrameworks/CharacterPicker.framework/Versions/A/XPCServices/com.apple.CharacterPicker.FileService.xpc/Contents/MacOS/com.apple.CharacterPicker.FileService
+kim                372   0.0  0.0  4333640   1068   ??  S     5:19PM   0:00.55 /System/Library/Image Capture/Support/icdd
+kim                371   0.0  0.0  4305608   1024   ??  S     5:19PM   0:00.09 /usr/libexec/SidecarRelay
+root               365   0.0  0.0  4332264   1660   ??  Ss    5:19PM   0:07.17 /System/Library/PrivateFrameworks/AmbientDisplay.framework/Versions/A/XPCServices/com.apple.AmbientDisplayAgent.xpc/Contents/MacOS/com.apple.AmbientDisplayAgent
+kim                356   0.0  0.0  4333636    712   ??  S     5:19PM   0:00.23 /usr/libexec/swcd
+kim                355   0.0  0.0  4355872   3548   ??  S     5:19PM   0:02.48 /System/Library/PrivateFrameworks/AssistantServices.framework/Versions/A/Support/assistantd
+kim                354   0.0  0.0  4449020   3384   ??  S     5:19PM   0:00.79 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/corespotlightd
+kim                342   0.0  0.0  4332844   1680   ??  S     5:19PM   0:00.79 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdwrite
+kim                338   0.0  0.0  4331436   1220   ??  S     5:19PM   0:00.11 /System/Library/Frameworks/LocalAuthentication.framework/Support/coreauthd
+kim                336   0.0  0.0  4334132    992   ??  S     5:19PM   0:00.26 /System/Library/CoreServices/ScopedBookmarkAgent
+kim                335   0.0  0.0  4352864   2196   ??  S     5:19PM   0:01.74 /System/Library/CoreServices/CoreLocationAgent.app/Contents/MacOS/CoreLocationAgent
+kim                334   0.0  0.0  4333260   1044   ??  S     5:19PM   0:00.12 /usr/libexec/networkserviceproxy
+kim                332   0.0  0.1  4338448   6896   ??  Ss    5:19PM   0:01.88 /System/Library/PrivateFrameworks/CalendarNotification.framework/Versions/A/XPCServices/CalNCService.xpc/Contents/MacOS/CalNCService
+_fpsd              330   0.0  0.0  4308940   3928   ??  Ss    5:19PM   0:03.70 /System/Library/PrivateFrameworks/CoreADI.framework/adid
+kim                328   0.0  0.0  4334720   3884   ??  S     5:19PM   0:01.10 /usr/libexec/nsurlstoraged
+kim                327   0.0  0.0  4338452   1052   ??  S     5:19PM   0:00.55 /System/Library/PrivateFrameworks/CallHistory.framework/Support/CallHistoryPluginHelper
+kim                326   0.0  0.2  4381396  15432   ??  S     5:19PM   0:05.84 /System/Library/PrivateFrameworks/CalendarAgent.framework/Executables/CalendarAgent
+kim                324   0.0  0.0  4305844    492   ??  S     5:19PM   0:00.06 /usr/libexec/spindump_agent
+root               322   0.0  0.0  4391624    808   ??  Ss    5:19PM   0:00.85 /usr/sbin/spindump
+kim                320   0.0  0.1  4333472   6844   ??  Ss    5:19PM   0:02.57 /System/Library/PrivateFrameworks/CoreWLANKit.framework/Versions/A/XPCServices/WiFiProxy.xpc/Contents/MacOS/WiFiProxy
+kim                319   0.0  0.0  4306452    560   ??  S     5:19PM   0:00.13 /System/Library/PrivateFrameworks/CommerceKit.framework/Versions/A/Resources/storeaccountd
+kim                316   0.0  0.0  4865612   2684   ??  Ss    5:19PM   0:01.82 /System/Library/CoreServices/Dock.app/Contents/XPCServices/com.apple.dock.extra.xpc/Contents/MacOS/com.apple.dock.extra
+kim                315   0.0  0.0  4348256   3784   ??  S     5:19PM   0:01.20 /System/Library/PrivateFrameworks/GeoServices.framework/Versions/A/XPCServices/com.apple.geod.xpc/Contents/MacOS/com.apple.geod
+kim                314   0.0  0.0  4358844   1400   ??  S     5:19PM   0:01.45 /System/Library/PrivateFrameworks/CommerceKit.framework/Versions/A/Resources/commerce
+kim                312   0.0  0.0  4353764   1532   ??  S     5:19PM   0:00.40 /usr/libexec/fmfd
+kim                311   0.0  0.1  4382828   4888   ??  S     5:19PM   0:06.26 /System/Library/CoreServices/iconservicesagent
+kim                310   0.0  0.0  4341448   2012   ??  S     5:19PM   0:01.92 /System/Library/PrivateFrameworks/CoreParsec.framework/parsecd
+root               309   0.0  0.0  4309168   2476   ??  Ss    5:19PM   0:08.54 /usr/sbin/filecoordinationd
+kim                308   0.0  0.2  4370180  13300   ??  S     5:19PM   0:39.77 /usr/libexec/sharingd
+kim                307   0.0  0.0  4338400   3236   ??  S     5:19PM   0:16.52 /System/Library/PrivateFrameworks/UserActivity.framework/Agents/useractivityd
+kim                306   0.0  0.0  4341356   2008   ??  S     5:19PM   0:03.51 /System/Library/PrivateFrameworks/MessagesKit.framework/Resources/soagent.app/Contents/MacOS/soagent
+kim                305   0.0  0.1  4926984  11836   ??  S     5:19PM   0:05.09 /System/Library/CoreServices/NotificationCenter.app/Contents/MacOS/NotificationCenter
+kim                304   0.0  0.0  4305752    828   ??  S     5:19PM   0:00.12 /System/Library/Frameworks/Security.framework/Versions/A/Resources/CloudKeychainProxy.bundle/Contents/MacOS/CloudKeychainProxy
+kim                303   0.0  0.0  4335904   2760   ??  S     5:19PM   0:00.86 /usr/sbin/usernoted
+root               302   0.0  0.0  4304680    480   ??  Ss    5:19PM   0:00.06 /System/Library/CoreServices/CrashReporterSupportHelper server-init
+kim                301   0.0  0.1  4339640   7936   ??  S     5:19PM   0:03.35 /usr/libexec/routined LAUNCHED_BY_LAUNCHD
+kim                300   0.0  0.2  4361436  14872   ??  R     5:19PM   2:58.96 /System/Library/PrivateFrameworks/CloudDocsDaemon.framework/Versions/A/Support/bird
+kim                298   0.0  0.1  4935760   5552   ??  S     5:19PM   0:02.44 /System/Library/CoreServices/Spotlight.app/Contents/MacOS/Spotlight
+kim                297   0.0  0.1  4334224   4900   ??  S     5:19PM   0:09.79 /System/Library/Frameworks/ApplicationServices.framework/Frameworks/ATS.framework/Support/fontd
+kim                296   0.0  0.1  4356520   6480   ??  S     5:19PM   0:06.00 /System/Library/PrivateFrameworks/AuthKit.framework/Versions/A/Support/akd
+kim                295   0.0  0.0  4306420   3236   ??  S     5:19PM   0:00.96 /usr/libexec/rapportd
+root               294   0.0  0.0  4332760   2424   ??  Ss    5:19PM   0:25.34 /usr/sbin/wirelessproxd
+kim                293   0.0  0.0  4334272   2728   ??  S     5:19PM   0:00.80 /usr/libexec/secinitd
+kim                292   0.0  0.0  4304708   2468   ??  S     5:19PM   0:00.64 /System/Library/Frameworks/AddressBook.framework/Executables/ContactsAccountsService
+kim                291   0.0  0.0  4306472   1676   ??  S     5:19PM   0:00.28 /System/Library/PrivateFrameworks/IMDPersistence.framework/XPCServices/IMDPersistenceAgent.xpc/Contents/MacOS/IMDPersistenceAgent
+kim                290   0.0  0.0  4332292   2124   ??  S     5:19PM   0:06.79 /System/Library/PrivateFrameworks/ViewBridge.framework/Versions/A/XPCServices/ViewBridgeAuxiliary.xpc/Contents/MacOS/ViewBridgeAuxiliary
+kim                289   0.0  0.0  4334416   3548   ??  S     5:19PM   0:00.82 /System/Library/PrivateFrameworks/IMCore.framework/imagent.app/Contents/MacOS/imagent
+kim                288   0.0  0.0  4339016   3220   ??  S     5:19PM   0:03.73 /usr/libexec/pkd
+kim                287   0.0  0.1  4343744   7784   ??  S     5:19PM   2:58.65 /usr/libexec/nsurlsessiond
+kim                286   0.0  0.0  4334568   1664   ??  S     5:19PM   0:01.20 /System/Library/PrivateFrameworks/TCC.framework/Resources/tccd
+kim                281   0.0  0.1  4375940   7264   ??  S     5:19PM   0:30.16 /System/Library/Frameworks/Accounts.framework/Versions/A/Support/accountsd
+kim                279   0.0  0.0  4305832   1312   ??  S     5:19PM   0:00.59 /usr/libexec/pboard
+root               278   0.0  0.0  4336240    840   ??  Ss    5:19PM   0:00.17 /usr/sbin/systemsoundserverd
+kim                276   0.0  0.2  4367980  12860   ??  S     5:19PM   0:04.97 /System/Library/PrivateFrameworks/IDS.framework/identityservicesd.app/Contents/MacOS/identityservicesd
+kim                273   0.0  0.7  5057596  59200   ??  S     5:19PM   2:52.96 /System/Library/CoreServices/Finder.app/Contents/MacOS/Finder
+kim                272   0.0  0.3  4925604  24804   ??  S     5:19PM   0:16.74 /System/Library/CoreServices/SystemUIServer.app/Contents/MacOS/SystemUIServer
+kim                271   0.0  0.0  4403896   2236   ??  S     5:19PM   0:02.44 /System/Library/CoreServices/talagent
+kim                270   0.0  0.1  4973824  12140   ??  S     5:19PM   0:29.77 /System/Library/CoreServices/Dock.app/Contents/MacOS/Dock
+kim                269   0.0  0.1  4346756   6324   ??  S     5:19PM   0:03.45 /System/Library/PrivateFrameworks/TelephonyUtilities.framework/callservicesd
+root               268   0.0  0.0  4332288   2032   ??  Ss    5:19PM   0:00.57 /usr/sbin/WirelessRadioManagerd
+kim                266   0.0  0.2  4378084  18388   ??  S     5:19PM   3:46.09 /System/Library/PrivateFrameworks/CloudKitDaemon.framework/Support/cloudd
+kim                265   0.0  0.0  4333828    700   ??  S     5:19PM   0:00.20 /System/Library/CoreServices/backgroundtaskmanagementagent
+kim                263   0.0  0.1  4341956   5044   ??  S     5:19PM   0:10.58 /usr/libexec/secd
+kim                257   0.0  0.0  4333804   2228   ??  S     5:19PM   0:00.87 /System/Library/CoreServices/sharedfilelistd
+kim                256   0.0  1.4  6210000 121276   ??  S     5:19PM   9:25.41 /Applications/Xcode.app/Contents/MacOS/Xcode -psn_0_45067
+kim                255   0.0  0.1  4338172   6096   ??  S     5:19PM   0:30.56 /usr/libexec/trustd --agent
+kim                254   0.0  0.0  4336460   2352   ??  S     5:19PM   0:01.09 /usr/libexec/lsd
+kim                253   0.0  0.1  4346076   5328   ??  S     5:19PM   0:04.51 /System/Library/Frameworks/CoreTelephony.framework/Support/CommCenter -L
+kim                251   0.0  0.0  4305860   2488   ??  S     5:19PM   0:06.56 /usr/sbin/distnoted agent
+kim                249   0.0  0.0  4334356   3880   ??  S     5:19PM   0:26.76 /usr/libexec/UserEventAgent (Aqua)
+kim                248   0.0  0.0  4305804   2660   ??  S     5:19PM   0:06.44 /usr/sbin/cfprefsd agent
+root               247   0.0  0.0  4306020   1220   ??  Ss    5:19PM   0:01.93 /System/Library/PrivateFrameworks/PerformanceAnalysis.framework/Versions/A/XPCServices/com.apple.PerformanceAnalysis.animationperfd.xpc/Contents/MacOS/com.apple.PerformanceAnalysis.animationperfd
+root               246   0.0  0.0  4305860    432   ??  S     5:19PM   0:00.07 /usr/sbin/distnoted agent
+root               245   0.0  0.0  4332208   1056   ??  S     5:19PM   0:06.16 /System/Library/PrivateFrameworks/ViewBridge.framework/Versions/A/XPCServices/ViewBridgeAuxiliary.xpc/Contents/MacOS/ViewBridgeAuxiliary
+root               244   0.0  0.0  4331724    976   ??  Ss    5:19PM   0:00.17 /usr/libexec/biokitaggdd
+root               243   0.0  0.0  4332664   2648   ??  Ss    5:19PM   0:01.21 /usr/libexec/biometrickitd --launchd
+root               242   0.0  0.0  4306404      8   ??  Ss    5:19PM   0:00.03 /usr/libexec/securityd_service
+root               241   0.0  0.0  4332396   2996   ??  Ss    5:19PM   0:00.54 /System/Library/Frameworks/LocalAuthentication.framework/Support/coreauthd
+root               237   0.0  0.0  4305460    272   ??  Ss    5:19PM   0:00.02 /System/Library/Frameworks/GSS.framework/Helpers/GSSCred
+root               233   0.0  0.0  4305228    784   ??  Ss    5:19PM   0:00.05 /System/Library/PrivateFrameworks/AccountPolicy.framework/XPCServices/com.apple.AccountPolicyHelper.xpc/Contents/MacOS/com.apple.AccountPolicyHelper
+root               232   0.0  0.0  4332532    796   ??  Ss    5:19PM   0:00.18 /System/Library/CoreServices/sharedfilelistd
+root               231   0.0  0.0  4305204    424   ??  Ss    5:19PM   0:00.04 /System/Library/Frameworks/CoreMediaIO.framework/Versions/A/XPCServices/com.apple.cmio.registerassistantservice.xpc/Contents/MacOS/com.apple.cmio.registerassistantservice
+root               225   0.0  0.0  4305588      8   ??  Ss    5:19PM   0:00.03 /usr/libexec/bootinstalld
+root               224   0.0  0.0  4333116    852   ??  S     5:19PM   0:00.24 /usr/sbin/systemstats --logger-helper /private/var/db/systemstats
+root               223   0.0  0.0  4304936      8   ??  Ss    5:19PM   0:02.91 /usr/libexec/sysmond
+root               222   0.0  0.0  4307364   1060   ??  Ss    5:19PM   0:00.36 /System/Library/Frameworks/Security.framework/Versions/A/XPCServices/com.apple.CodeSigningHelper.xpc/Contents/MacOS/com.apple.CodeSigningHelper
+root               213   0.0  0.0  4305564      8   ??  Ss    5:19PM   0:00.03 /usr/libexec/colorsyncd
+root               212   0.0  0.0  4304700    504   ??  Ss    5:19PM   0:00.09 /usr/libexec/colorsync.displayservices
+root               211   0.0  0.0  4331116    272   ??  Ss    5:19PM   0:00.06 /System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/CVMServer
+root               210   0.0  0.0  4333388    760   ??  Ss    5:19PM   0:00.18 /usr/libexec/secinitd
+root               207   0.0  0.7  5150044  54816   ??  Ss    5:19PM   0:48.26 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mds_stores
+root               206   0.0  0.0  4339356   4184   ??  Ss    5:19PM   0:03.17 /System/Library/PrivateFrameworks/TCC.framework/Resources/tccd system
+root               204   0.0  0.0  4296516    228   ??  Ss    5:19PM   0:00.07 /usr/libexec/thermald
+_coreaudiod        203   0.0  0.0  4304916      8   ??  Ss    5:19PM   0:00.02 /System/Library/Frameworks/AudioToolbox.framework/XPCServices/com.apple.audio.SandboxHelper.xpc/Contents/MacOS/com.apple.audio.SandboxHelper
+root               202   0.0  0.0  4306432    532   ??  Ss    5:19PM   0:00.08 /System/Library/Frameworks/AudioToolbox.framework/AudioComponentRegistrar -daemon
+root               201   0.0  0.0  4305748    580   ??  Ss    5:18PM   0:01.54 /usr/libexec/watchdogd
+_analyticsd        197   0.0  0.0  4332888   1748   ??  Ss    5:18PM   0:00.79 /System/Library/PrivateFrameworks/CoreAnalytics.framework/Support/analyticsd
+_nsurlstoraged     190   0.0  0.0  4305300    488   ??  Ss    5:18PM   0:00.08 /usr/libexec/nsurlstoraged --privileged
+root               189   0.0  0.0  4307440    340   ??  Ss    5:18PM   0:00.26 /System/Library/PrivateFrameworks/CoreSymbolication.framework/coresymbolicationd
+root               185   0.0  0.0  4363916   1152   ??  Ss    5:18PM   0:10.47 /System/Library/CoreServices/SubmitDiagInfo server-init
+_softwareupdate    184   0.0  0.0  4305264    448   ??  Ss    5:18PM   0:00.06 /System/Library/PrivateFrameworks/BridgeOSSoftwareUpdate.framework/Support/bosUpdateProxy
+_cmiodalassistants   182   0.0  0.0  4362092   1096   ??  Ss    5:18PM   0:00.34 /System/Library/Frameworks/CoreMediaIO.framework/Resources/VDC.plugin/Contents/Resources/VDCAssistant
+root               181   0.0  0.0  4332396    800   ??  Ss    5:18PM   0:00.43 /usr/libexec/usbd
+root               180   0.0  0.4  4367384  32964   ??  Ss    5:18PM   1:27.38 /usr/libexec/airportd
+root               179   0.0  0.0  4304748    448   ??  Ss    5:18PM   0:00.09 /usr/libexec/apfsd
+root               178   0.0  0.0  4304712    488   ??  Ss    5:18PM   0:00.04 /System/Library/CryptoTokenKit/com.apple.ifdreader.slotd/Contents/MacOS/com.apple.ifdreader
+root               177   0.0  0.0  4296520      8   ??  Ss    5:18PM   0:00.02 /usr/libexec/multiversed
+_nsurlsessiond     176   0.0  0.0  4338628   4188   ??  Ss    5:18PM   0:00.95 /usr/libexec/nsurlsessiond --privileged
+root               173   0.0  0.0  4337380    544   ??  Ss    5:18PM   0:02.39 /usr/libexec/mobileassetd
+root               169   0.0  0.0  4332296    544   ??  Ss    5:18PM   0:01.77 /usr/sbin/mDNSResponderHelper
+_mdnsresponder     168   0.0  0.0  4335132   3096   ??  Ss    5:18PM   0:15.58 /usr/sbin/mDNSResponder
+_networkd          167   0.0  0.1  4343852   8440   ??  Ss    5:18PM   0:16.03 /usr/libexec/symptomsd
+_coreaudiod        164   0.0  0.0  4331752    744   ??  Ss    5:18PM   0:00.15 /System/Library/Frameworks/CoreAudio.framework/Versions/A/XPCServices/com.apple.audio.DriverHelper.xpc/Contents/MacOS/com.apple.audio.DriverHelper
+root               148   0.0  0.0  4336596   1128   ??  Ss    5:18PM   0:01.73 /usr/libexec/nehelper
+root               143   0.0  0.0  4335616   2492   ??  Ss    5:18PM   0:01.83 /System/Library/PrivateFrameworks/WirelessDiagnostics.framework/Support/awdd
+_coreaudiod        141   0.0  0.1  4347060   6048   ??  Ss    5:18PM   0:15.34 /usr/sbin/coreaudiod
+_ctkd              140   0.0  0.0  4306432      8   ??  Ss    5:18PM   0:00.04 /System/Library/Frameworks/CryptoTokenKit.framework/ctkd -s
+root               136   0.0  0.1  4345136   5788   ??  Ss    5:18PM   0:19.02 /usr/libexec/trustd
+root               135   0.0  0.0  4305224      8   ??  Ss    5:18PM   0:00.02 /System/Library/Frameworks/PCSC.framework/Versions/A/XPCServices/com.apple.ctkpcscd.xpc/Contents/MacOS/com.apple.ctkpcscd
+root               133   0.0  0.0  4335788   3752   ??  Ss    5:18PM   0:01.03 /usr/libexec/lsd runAsRoot
+root               127   0.0  0.1  4338820   6708   ??  Ss    5:18PM   0:15.73 /System/Library/PrivateFrameworks/CoreDuetContext.framework/Resources/contextstored
+root               116   0.0  0.0  4305220     52   ??  Ss    5:18PM   0:00.07 aslmanager
+root               107   0.0  0.0  4305236   2468   ??  Ss    5:18PM   0:05.32 /usr/sbin/cfprefsd daemon
+root               106   0.0  0.0  4334892   3544   ??  Ss    5:18PM   0:00.90 /System/Library/Frameworks/Security.framework/Versions/A/XPCServices/authd.xpc/Contents/MacOS/authd
+root               105   0.0  0.1  4336152   6084   ??  Ss    5:18PM   0:07.05 /usr/libexec/syspolicyd
+root               104   0.0  0.0  4347368   3028   ??  Ss    5:18PM   0:06.27 /System/Library/CoreServices/coreservicesd
+root               103   0.0  0.0  4340112    832   ??  Ss    5:18PM   0:01.64 /usr/libexec/amfid
+_distnote          102   0.0  0.0  4305860    920   ??  Ss    5:18PM   0:00.59 /usr/sbin/distnoted daemon
+root               101   0.0  0.0  4296760   1436   ??  Ss    5:18PM   0:09.56 /usr/sbin/notifyd
+root               100   0.0  0.0  4332896   1640   ??  Ss    5:18PM   0:01.30 /usr/libexec/AirPlayXPCHelper
+root                99   0.0  0.0  4349284   1988   ??  Ss    5:18PM   0:10.26 /usr/libexec/corebrightnessd --launchd
+_hidd               97   0.0  0.1  4335820   4772   ??  Ss    5:18PM   6:35.15 /usr/libexec/hidd
+root                96   0.0  0.0  4334948   3520   ??  Ss    5:18PM   1:27.01 /usr/sbin/bluetoothd
+root                94   0.0  0.0  4304924      8   ??  Ss    5:18PM   0:00.01 /usr/sbin/KernelEventAgent
+root                93   0.0  0.0  4342788   3496   ??  Ss    5:18PM   0:01.98 /System/Library/PrivateFrameworks/GenerationalStorage.framework/Versions/A/Support/revisiond
+root                92   0.0  0.0  4304772    896   ??  Ss    5:18PM   0:00.09 /System/Library/CoreServices/logind
+kim                 91   0.0  0.2  4929676  16416   ??  Ss    5:18PM   0:09.77 /System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow console
+root                89   0.0  0.1  4333604   6956   ??  Ss    5:18PM   0:20.54 /usr/libexec/PerfPowerServices
+root                87   0.0  0.0  4337060   3952   ??  Ss    5:18PM   0:19.21 /usr/libexec/dasd
+_displaypolicyd     86   0.0  0.0  4307532    744   ??  Ss    5:18PM   0:00.21 /usr/libexec/displaypolicyd -k 1
+root                85   0.0  0.0  4305176      8   ??  Ss    5:18PM   0:00.02 autofsd
+_usbmuxd            81   0.0  0.0  4331848    744   ??  Ss    5:18PM   0:00.20 /System/Library/PrivateFrameworks/MobileDevice.framework/Versions/A/Resources/usbmuxd -launchd
+root                80   0.0  0.1  4335664   4320   ??  Ss    5:18PM   0:04.93 /usr/sbin/securityd -i
+_timed              79   0.0  0.0  4331740   2068   ??  Ss    5:18PM   0:02.25 /usr/libexec/timed
+root                78   0.0  0.1  4335024   4660   ??  Ss    5:18PM   0:08.75 /System/Library/CoreServices/launchservicesd
+root                77   0.0  0.0  4305556      8   ??  Ss    5:18PM   0:00.03 /System/Library/PrivateFrameworks/Noticeboard.framework/Versions/A/Resources/nbstated
+root                76   0.0  0.1  4352508   5980   ??  Ss    5:18PM   0:03.91 /System/Library/PrivateFrameworks/ApplePushService.framework/apsd
+root                75   0.0  0.2  4364784  20768   ??  Ss    5:18PM   0:17.69 /usr/libexec/opendirectoryd
+root                72   0.0  0.0  4342484   2924   ??  Ss    5:18PM   0:01.08 /usr/libexec/coreduetd
+root                71   0.0  0.0  4305524   1208   ??  Ss    5:18PM   0:00.43 /System/Library/CoreServices/backupd.bundle/Contents/Resources/backupd-helper -launchd
+root                68   0.0  0.0  4331312   1340   ??  Ss    5:18PM   0:01.44 /usr/libexec/diskarbitrationd
+_iconservices       67   0.0  0.0  4306372      8   ??  Ss    5:18PM   0:00.05 /System/Library/CoreServices/iconservicesd
+root                66   0.0  0.2  4436664  19744   ??  Ss    5:18PM   1:15.72 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Support/mds
+root                60   0.0  0.0  4305352      8   ??  Ss    5:18PM   0:00.02 /usr/libexec/keybagd -t 15
+root                59   0.0  0.1  4395236   7984   ??  Ss    5:18PM   0:13.56 /usr/libexec/logd
+root                56   0.0  0.0  4332056   3024   ??  Ss    5:18PM   0:29.80 /System/Library/CoreServices/powerd.bundle/powerd
+root                55   0.0  0.1  4339308   7968   ??  Ss    5:18PM   0:14.68 /usr/libexec/configd
+root                53   0.0  0.0  4341112   1996   ??  Ss    5:18PM   0:18.20 /usr/sbin/systemstats --daemon
+_appleevents        52   0.0  0.0  4334440   1972   ??  Ss    5:18PM   0:00.37 /System/Library/CoreServices/appleeventsd --server
+root                49   0.0  0.0  4337140    988   ??  Ss    5:18PM   0:00.48 /System/Library/PrivateFrameworks/MediaRemote.framework/Support/mediaremoted
+root                48   0.0  0.1  4344792   5168   ??  Ss    5:18PM   0:03.63 /opt/cisco/anyconnect/bin/vpnagentd -execv_instance
+root                46   0.0  0.0  4336424   2228   ??  Ss    5:18PM   0:37.83 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/FSEvents.framework/Versions/A/Support/fseventsd
+root                45   0.0  0.0  4344528   1140   ??  Ss    5:18PM   0:10.61 /usr/libexec/kextd
+root                44   0.0  0.0  4304416    384   ??  Ss    5:18PM   0:01.39 /System/Library/PrivateFrameworks/Uninstall.framework/Resources/uninstalld
+root                41   0.0  0.0  4333744   3228   ??  Ss    5:18PM   0:04.43 /usr/libexec/UserEventAgent (System)
+root                40   0.0  0.0  4305800    596   ??  Ss    5:18PM   0:01.71 /usr/sbin/syslogd
+root              1881   0.0  0.0  4268432   1020 s001  R+   10:14AM   0:00.01 ps axu
+root                 1   0.0  0.1  4329296   8928   ??  Ss    5:18PM   0:53.45 /sbin/launchd
+kim               1875   0.0  4.0  5354656 332308   ??  S    10:13AM   0:03.57 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/78.0.3904.87/Helpers/Google Chrome Helper (Renderer).app/Contents/MacOS/Google Chrome Helper (Renderer) --type=renderer --field-trial-handle=1718379636,2143933365673988013,10006179957102759078,131072 --lang=en-US --metrics-client-id=394b2b50-e409-4050-bb04-c261ed70a6c1 --extension-process --disable-client-side-phishing-detection --enable-auto-reload --num-raster-threads=2 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --service-request-channel-token=5489680573670061279 --renderer-client-id=48 --no-v8-untrusted-code-mitigations --seatbelt-client=131
+kim               1873   0.0  0.0  4287524    508 s001  S+   10:12AM   0:00.01 ./a.out
+kim               1871   0.0  0.0  4270116    876 s001  S+   10:12AM   0:00.01 ./a.out
+kim               1868   0.0  0.2  4352608  15908   ??  S    10:11AM   0:00.14 /System/Library/CoreServices/CoreServicesUIAgent.app/Contents/MacOS/CoreServicesUIAgent
+kim               1867   0.0  0.7  7401832  59844   ??  S    10:11AM   0:01.38 /Applications/Firefox.app/Contents/MacOS/plugin-container.app/Contents/MacOS/plugin-container -childID 18 -isForBrowser -prefsLen 10414 -prefMapSize 209864 -sbStartup -sbAppPath /Applications/Firefox.app -sbLevel 3 -sbAllowAudio -sbAllowWindowServer -parentBuildID 20191030021342 -greomni /Applications/Firefox.app/Contents/Resources/omni.ja -appomni /Applications/Firefox.app/Contents/Resources/browser/omni.ja -appdir /Applications/Firefox.app/Contents/Resources/browser -profile /Users/kim/Library/Application Support/Firefox/Profiles/eog4a9rv.default-release 333 gecko-crash-server-pipe.333 org.mozilla.machname.115105667 tab
+kim               1861   0.0  0.1  4310508  12356   ??  Ss   10:10AM   0:00.05 /System/Library/Frameworks/QuickLook.framework/Versions/A/Resources/quicklookd.app/Contents/XPCServices/QuickLookSatellite.xpc/Contents/MacOS/QuickLookSatellite
+kim               1860   0.0  0.2  4851688  17068   ??  S    10:10AM   0:00.15 /System/Library/Frameworks/QuickLook.framework/Resources/quicklookd.app/Contents/MacOS/quicklookd
+_netbios          1855   0.0  0.1  4306780  10488   ??  SNs  10:09AM   0:00.05 /usr/sbin/netbiosd
+root              1853   0.0  0.1  4331504   6972   ??  Ss   10:09AM   0:00.04 /usr/sbin/ocspd
+kim               1851   0.0  0.1  4332588   7576   ??  Ss   10:09AM   0:00.09 /System/Library/SystemConfiguration/EAPOLController.bundle/Contents/Resources/eapolclient -i en0 -u 501 -g 20
