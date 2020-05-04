@@ -1,0 +1,116 @@
+#include "common.h"
+#include "FIFOreqchannel.h"
+
+#include <iostream>
+#include <string>
+#include <stdio.h>
+#include <sys/wait.h>
+using namespace std;
+
+
+int main(int argc, char *argv[]){
+  int n = 100;    // default number of requests per "patient"
+  int p = 15;// number of patients
+  double i = 0.000;
+  srand(time_t(NULL));
+    
+  FIFORequestChannel chan ("control", FIFORequestChannel::CLIENT_SIDE);
+    
+  //ethan's code
+  //    datamsg dP1 = datamsg(1,0.00,1);
+  //    int len = chan.cwrite(&dP, sizeof(dP));
+  //    double* request = (double*) chan.cread(&len);
+  //    cout<<*request<<endl;
+    
+    
+  cout<<"Part 1:"<<endl;
+  //for part 1
+    
+  string filename = "x1.csv";
+  char* buffer = new char [sizeof(datamsg(1,0.000,1))];
+  *(datamsg*)buffer = datamsg(1,0.00,1);
+  chan.cwrite( buffer, sizeof(datamsg) );
+    
+  char* ptr = chan.cread();
+  double data = *(double*)ptr;
+  ios_base::sync_with_stdio(false);
+  ofstream myfile;
+  myfile.open("received/x1.csv");
+    
+    
+  for(double i=0.00; i<60.000; i = i+ 0.4){
+    datamsg dP1 = datamsg(1, i, 1);
+    int len1 = chan.cwrite(&dP1, sizeof(dP1));
+    double* request1 = (double*) chan.cread(&len1);
+    cout<<i<<", "<<*request1<<", ";
+        
+        
+    datamsg dP2 = datamsg(1, i, 2);
+    int len2 = chan.cwrite(&dP2, sizeof(dP2));
+    double* request2 = (double*) chan.cread(&len2);
+    cout<<*request2<<endl;
+        
+  }
+  myfile.close();
+  cout<<"File is closed"<<endl;
+  cout<<"Part 2:"<<endl;
+  //part 2
+  //get length of file requested
+  filemsg f = filemsg(0,0);
+  //prompt user for filename
+  /*  char t[filename.size() + 1]; //char array of filename
+     for(int i=0; i<filename.size(); ++i){
+     char temp = filename[i];
+     t[i] = temp;
+     }*/
+  vector<char> t = {'1','.','c','s','v'};
+    
+  char* buff = new char[sizeof(filemsg) + sizeof(t) + 1];
+  *(filemsg*)buff = f;
+  for(int i = 0 ; i < filename.size() ; i ++ ) {
+    *(char*)(buff + sizeof(filemsg) + i ) = t[i];
+  }
+  *(char*)(buff+sizeof(filemsg)+sizeof(t)) = '\0';
+  cout << sizeof(buff) << endl;
+  chan.cwrite(buff, sizeof(filemsg) + sizeof(t) + 1);
+  //char* fptr = chan.cread(&length);
+  char* fptr = chan.cread();
+  __int64_t fileLength = *(__int64_t*)fptr;
+  cout << fileLength << endl;
+  //file time
+  ios_base::sync_with_stdio(false);
+  FILE* pf = fopen("y1.csv","wb");
+  int j=0, k=256;
+  while(j<fileLength){
+    filemsg f2 = filemsg(j,k);
+    vector<char> t1 = {'1','.','c','s','v'};
+    char* bufferf = new char[sizeof(filemsg) + sizeof(t1) + 1];
+    *(filemsg*)bufferf = f2;
+    for(int i = 0 ; i < 5 ; i ++ ) {
+      *(char*)(bufferf + sizeof(filemsg) + i ) = t1[i];
+    }
+    *(char*)(bufferf + sizeof(filemsg) + sizeof(t1)) = '\0';
+    chan.cwrite( bufferf, sizeof(filemsg) + sizeof(t1) + 1);
+    char* fptr2 = chan.cread();
+    //int lengthf;
+    //lengthf = chan.cread(lengthf);
+        
+    fwrite(fptr2, sizeof(char), sizeof(fptr2), pf);
+        
+        
+    cout << j << " , " << k << endl;
+    j += 257;
+    if ( fileLength - j < 256 ){
+      k = fileLength - j;
+    }
+  }
+  //myfile.close();
+  fclose(pf);
+    
+  // closing the channel
+    
+  MESSAGE_TYPE m = QUIT_MSG;
+  chan.cwrite (&m, sizeof (MESSAGE_TYPE));
+    
+    
+}
