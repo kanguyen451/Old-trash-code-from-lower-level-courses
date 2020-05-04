@@ -1,0 +1,182 @@
+\documentclass{article}
+\usepackage{amsmath,amssymb,amsthm,latexsym,paralist}
+
+% If you want to enlarge the page size for the text area, you can uncomment the following 
+% four lines and adjust the text area as you wish by changing the values within the second { }.
+%\setlength{\topmargin}{-.1in}
+%\setlength{\oddsidemargin}{.2in}
+%\setlength{\textwidth}{6.1in}
+%\setlength{\textheight}{8.5in}
+
+\theoremstyle{definition}
+\newtheorem{problem}{Problem}
+\newtheorem*{solution}{Solution}
+\newtheorem*{resources}{Resources}
+
+\newcommand{\name}[2]{\noindent\textbf{Name: #1}\hfill \textbf{Section: #2}}
+\newcommand{\honor}{\noindent On my honor, as an Aggie, I have neither
+  given nor received any unauthorized aid on any portion of the
+  academic work included in this assignment. Furthermore, I have
+  disclosed all resources (people, books, web sites, etc.) that have
+  been used to prepare this homework. \\[1.5ex]
+ \textbf{Electronic Signature: \underline{ (Type your full name here) } } }
+ 
+\newcommand{\checklist}{\noindent\textbf{Checklist:}
+\begin{compactitem}[$\Box$] 
+\item Did you type in your name and UIN? 
+\item Did you disclose all resources that you have used? \\
+(This includes all people, books, websites, etc.\ that you have consulted.)
+\item Did you electronically sign that you followed the Aggie Honor Code? 
+\item Did you solve all problems? 
+\item Did you submit both of the .tex and .pdf files of your homework to the correct link on eCampus?
+\end{compactitem}
+}
+
+\newcommand{\problemset}[1]{\begin{center}\textbf{Problem Set #1}\end{center}}
+\newcommand{\duedate}[1]{\begin{quote}\textbf{Due dates:} Electronic
+    submission of \textsl{yourLastName-yourFirstName-hw3.tex} and 
+    \textsl{yourLastName-yourFirstName-hw3.pdf} files of this homework is due on
+    \textbf{#1} on \texttt{http://ecampus.tamu.edu}. You will see two separate links
+    to turn in the .tex file and the .pdf file separately. Please do not archive or compress the files.  
+    \textbf{If any of the two submissions are missing, you will likely receive zero points for this 
+    homework.} \end{quote} }
+
+\newcommand{\N}{\mathbf{N}}
+\newcommand{\R}{\mathbf{R}}
+\newcommand{\Z}{\mathbf{Z}}
+
+
+\begin{document}
+\vspace*{-15mm}
+\begin{center}
+{\large
+CSCE 222 [Section 501] Discrete Structures for Computing\\[.5ex]
+Spring 2019 -- Hyunyoung Lee\\}
+\end{center}
+\problemset{3}
+\duedate{Friday, 2/15/2019 before 10:00 p.m.}
+\name{ (type your name here) }{ (type your UIN here) }
+\begin{resources} (All people, books, articles, web pages, etc.\ that
+  have been consulted when producing your answers to this homework.)
+\end{resources}
+\honor
+
+\bigskip
+
+\noindent
+\textbf{*** Please make sure that you are solving the correct problems from 
+the \underline{8th Edition of the Rosen book}, not the 7th Edition! ***}
+
+\medskip
+
+\begin{problem} (2 points $\times$ 6 subproblems = 12 points)
+Section 2.1, Exercise 10, page 132.
+\end{problem} 
+\begin{solution}
+\end{solution}
+
+\begin{problem} (2.5 points $\times$ 4 subproblems = 10 points)
+Section 2.1, Exercise 26, page 132.
+\end{problem} 
+\begin{solution}
+\end{solution}
+
+\begin{problem} (10 points)
+Section 2.1, Exercise 28, page 132. 
+\textit{Use definitions and justify each step of your argument.}
+\end{problem} 
+\begin{solution}
+\end{solution}
+
+\begin{problem} (2 points $\times$ 4 subproblems = 8 points) 
+Section 2.2, Exercise 4, page 144. 
+\end{problem}
+\begin{solution}
+\end{solution}
+
+\begin{problem} (5 points $\times$ 2 subproblems = 10 points) 
+Section 2.2, Exercise 16 c) and d), page 144. 
+\textit{Use definitions, and explain each step using definitions and/or laws.}
+\end{problem}
+\begin{solution}
+\end{solution}
+
+\begin{problem} (5 points $\times$ 2 subproblems = 10 points) 
+Section 2.2, Exercise 56 a) and c), page 145. 
+\end{problem}
+\begin{solution}
+\end{solution}
+
+\begin{problem} (2.5 points $\times$ 4 subproblems = 10 points)
+Section 2.3, Exercise 12, page 162. 
+\end{problem}
+\begin{solution}
+\end{solution}
+
+\begin{problem} (2.5 points $\times$ 2 subproblems = 5 points) 
+Section 2.3, Exercise 14 a) and b), page 162.
+\end{problem}
+\begin{solution}
+\end{solution}
+
+\begin{problem} (2.5 points $\times$ 4 subproblems = 10 points) 
+Section 2.3, Exercise 60, page 164. 
+\end{problem}
+\begin{solution}
+\end{solution}
+
+\begin{problem} (15 points) Prove that 
+$$ \left\lceil {\left\lceil \displaystyle\frac{x}{2} \right\rceil} \big{/} {2} \right\rceil = 
+\left\lceil \displaystyle\frac{x}{4} \right\rceil$$ holds for all real numbers $x$.
+\textit{Use the definition of the ceiling function as we discussed in class.}
+\end{problem}
+\begin{solution}
+\end{solution}
+\bigskip
+
+\goodbreak
+\checklist
+
+\bigskip
+\bigskip
+\noindent
+\textbf{\LaTeX\ symbols for sets and functions}
+\smallskip
+\begin{enumerate}
+\item
+Set of integers that are less than or equal to $n$: $\{x\in \Z\mid x \le n\}$
+\item
+$x$ is a real number: $x\in \R$
+\item 
+$x$ is not an integer: $x\not\in \Z$
+\item 
+Cardinality of set $A$: $|A|$
+\item 
+Union of set $A$ and set $B$: $A\cup B$
+\item
+Generalized union: $\bigcup_{i=1}^\infty A_i$
+\item
+Intersection of set $A$ and set $B$: $A\cap B$
+\item 
+Generalized intersection: $\bigcap_{i=1}^\infty A_i$
+\item
+The empty set: $\emptyset$
+\item
+Set $A$ is a subset of set $B$: $A\subseteq B$
+\item
+Set $A$ is a proper subset of set $B$: $A\subset B$
+\item 
+Cartesian product of set $A$ and set $B$: $A \times B$
+\item 
+Complement of set $A$: $A^C$ or $\overline{A}$
+\item
+Ellipsis: $\ldots$ or $\cdots$
+\item
+Ceiling function: $\lceil 3.14 \rceil = 4$
+\item 
+Floor function: $\lfloor 3.14 \rfloor = 3$
+\item 
+Square root: $\sqrt{b^2-4ac}$
+\end{enumerate}
+
+\end{document}

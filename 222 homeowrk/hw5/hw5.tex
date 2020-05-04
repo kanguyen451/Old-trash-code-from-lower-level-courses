@@ -1,0 +1,154 @@
+\documentclass{article}
+\usepackage{amsmath,amssymb,amsthm,latexsym,paralist}
+\usepackage[normalem]{ulem}
+
+% If you want to enlarge the page size for the text area, you can uncomment the following 
+% four lines and adjust the text area as you wish by changing the values within the second { }.
+%\setlength{\topmargin}{-.1in}
+%\setlength{\oddsidemargin}{.2in}
+%\setlength{\textwidth}{6.1in}
+%\setlength{\textheight}{8.5in}
+
+\theoremstyle{definition}
+\newtheorem{problem}{Problem}
+\newtheorem*{solution}{Solution}
+\newtheorem*{resources}{Resources}
+
+\newcommand{\name}[2]{\noindent\textbf{Name: #1}\hfill \textbf{UIN: #2}}
+\newcommand{\honor}{\noindent On my honor, as an Aggie, I have neither
+  given nor received any unauthorized aid on any portion of the
+  academic work included in this assignment. Furthermore, I have
+  disclosed all resources (people, books, web sites, etc.) that have
+  been used to prepare this homework. \\[2ex]
+ \textbf{Electronic Signature: \underline{ Kim Nguyen } } }
+ 
+\newcommand{\checklist}{\noindent\textbf{Checklist:}
+\begin{compactitem}[$\Box$] 
+\item Did you type in your name and UIN? 
+\item Did you disclose all resources that you have used? \\
+(This includes all people, books, websites, etc.\ that you have consulted.)
+\item Did you electronically sign that you followed the Aggie Honor Code? 
+\item Did you solve all problems? 
+\item Did you submit both of the .tex and .pdf files of your homework to the correct link 
+on eCampus? 
+\end{compactitem}
+}
+
+\newcommand{\problemset}[1]{\begin{center}\textbf{Problem Set #1}\end{center}}
+\newcommand{\duedate}[1]{\begin{quote}\textbf{Due dates:} Electronic
+    submission of \textsl{yourLastName-yourFirstName-hw5.tex} and 
+    \textsl{yourLastName-yourFirstName-hw5.pdf} files of this homework is due on
+    \textbf{#1} on \texttt{http://ecampus.tamu.edu}. You will see two separate links
+    to turn in the .tex file and the .pdf file separately. Please do not archive or compress the files.  
+    \textbf{If any of the two submissions are missing, you will likely receive zero points for this 
+    homework.}\end{quote} }
+
+\newcommand{\N}{\mathbf{N}}
+\newcommand{\R}{\mathbf{R}}
+\newcommand{\Z}{\mathbf{Z}}
+
+
+\begin{document}
+\vspace*{-15mm}
+\begin{center}
+{\large
+CSCE 222 [Section 501] Discrete Structures for Computing\\[.5ex]
+Spring 2019 -- Hyunyoung Lee\\}
+\end{center}
+\problemset{5}
+\duedate{Friday, 3/8/2019 before 10:00 p.m.}
+\name{ Kim Nguyen }{ 426007378 }
+\begin{resources} (All people, books, articles, web pages, etc.\ that
+  have been consulted when producing your answers to this homework.)
+\end{resources}
+\honor
+
+\bigskip
+\noindent
+Total 100 (+ 20 extra) points.
+
+\begin{problem} (4 pts $\times$ 5 = 20 points) 
+Section 2.4, Exercise 10, page 177
+\end{problem}
+\begin{solution}.
+\\a) $a_n = 6{a}_{n-1}$, $a_0 = 2$
+\\$a_0 = 2, a_1 = 12, a_2 = 72, a_3 = 432, a_4 = 2592, a_5 = 15552, a_6 = 93312$
+\\b) $a_n = a_{n-1} - a_{n-2} , a_0 = 2, a_1 = -1$
+\\$a_0 = 2, a_1 = -1, a_2 = -3, a_3 = -2, a_4 = 1, a_5 = 3, a_6 = 2$
+\\c) $a_n = 3a^{2}_{n-1}$, $a_0 = 1$ 
+\\$a_0 = 1$, $a_1 = 3$, $a_2 = 27$, $a_3 = 2187$, $a_4 = 14348907$, $a_5 = 6.1767E14$, $a_6 = 1.1446E30$
+\\d) $a_n = na_{n-1} + a_{n-2}^{2}, a_0 = -1, a_1 = 0$
+\\$a_0 = -1$, $a_1 = 0$, $a_2 = 1$, $a_3 = 3$, $a_4 = 13$, $a_5 = 74$, $a_6 = 613$
+\\e) $a_n = a_{n-1} - a_{n-2} + a_{n-3}, a_0 = 1, a_1 = 1, a_2 = 2$
+\\$a_0 = 1$, $a_1 = 1$, $a_2 = 2$, $a_3 = 2$, $a_4 = 1$, $a_5 = 1$, $a_6 = 1$
+\end{solution}
+
+\begin{problem} (5 pts $\times$ 4 = 20 points) 
+Section 2.4, Exercise 16 a)--d), page 178
+\end{problem}
+\begin{solution}.
+\\a) $a_n = 5(-1)^n$
+\\b) $a_n = 3n + 1$
+\\c) $a_n = 4 - \frac{n(n+1)}{2}$
+\\d) $a_n = -1 - n^2$
+\end{solution}
+
+\begin{problem} (5 pts $\times$ 2 = 10 points) 
+Section 2.4, Exercise 34 a) and c), page 179
+\end{problem}
+\begin{solution}.
+\\a) -3
+\\c) 9
+\end{solution}
+
+\begin{problem} (12 points) 
+Section 5.1, Exercise 8, page 350
+\end{problem}
+\begin{solution}.
+\\\\$\underline{Induction Basis:}$ Since $P(1): 2(-7)^1 = \frac{1 - (-7)^2}{4} = -14$ is true, then the assertion $P(n)$ is true.
+\\\\$\underline{Induction Step:}$ Suppose $P(n)$ holds for all integers $n>0$, then $P(n+1): \frac{1 - (-7)^{n+1}}{4} + 2(-7)^{n+1} = \frac{1 - (-7)^{n+1} + 8(-7)^{n+1}}{4} = \frac{1 - (1-8)(-7)^{n+1}}{4} = \frac{1 - (-7)^{n+2}}{4}$. Hence $P(n+1)$ holds, thus we can conclude that $P(n)$ implies $P(n+1).$
+\end{solution}
+
+\begin{problem} (12 points) 
+Section 5.1, Exercise 10, page 350
+\end{problem}
+\begin{solution}.
+\\a) $\frac{n}{n+1}$
+\\b) \\$\underline{Induction Basis:}$ Since $P(1): \frac{1}{1+1} = \frac{1}{2}$ is true then the assertion $P(n)$ is true.
+\\\\$\underline{Induction Step:}$ Suppose $P(n)$ holds for all integers $n>0$, then \\$P(n+1): \frac{n}{n+1} + \frac{1}{(n+1)(n+2)} = \frac{n(n+1)(n+2)+(n+1)}{(n+2)(n+1)^2} = \frac{n^2+2n+1}{(n+2)(n+1)} = \frac{n+1}{n+2}$. \\Hence $P(n+1)$ holds and thus we can conclude that $P(n)$ implies $P(n+1)$
+\end{solution}
+
+\begin{problem} (12 points) 
+Section 5.1, Exercise 12, page 351
+\end{problem}
+\begin{solution}.
+\\$\underline{Induction Basis:}$ Since $P(1): 1 - \frac{1}{2} = \frac{3}{(3)(2)} = \frac{1}{2}$ is true, then the assertion $P(n)$ is true.
+\\\\$\underline{Induction Step:}$ Suppose $P(n)$ holds for all integers $n>0$, then \\$P(n+1): \frac{2^{n+1}+(-1)^n}{3\cdot2^n} + (\frac{1}{2})^{n+1} = \frac{2^{n+1}+(-1)^n}{3\cdot2^n} + \frac{1}{2^{n+1}} = \frac{2^{2n+2}+}{}$
+\end{solution}
+
+\begin{problem} (12 points) 
+Section 5.1, Exercise 14, page 351
+\end{problem}
+\begin{solution}.
+\\$\underline{Induction Basis:}$ Since $P(1): (1 - 1)2^{n+1} + 2 = 1\cdot2^1 = 2$ is true, then the assertion $P(n)$ is true.
+\\\\$\underline{Induction Step:}$ Suppose $P(n)$ holds for all integers $n>0$, then \\$P(n+1): (n - 1)2^{n+1} + 2 + (n + 1)2^{n + 1} = (2n)2^{n+1} + 2 = n2^{n + 2} + 2$. Hence $P(n+1)$ holds and thus we can conclude that $P(n)$ implies $P(n+1)$
+\end{solution}
+
+\begin{problem} (12 points) 
+Section 5.1, Exercise 34, page 351
+\end{problem}
+\begin{solution}.
+\\$\underline{Induction Basis:}$ Since $P(0): 0^3 - 0 = 0$ which is divisible by $6$. Thus the assertion P(n) is true.
+\\\\$\underline{Induction Step:}$ Suppose $P(n)$ holds for all integers $n>0$, then \\$P(n+1): (n+1)^3 - (n + 1) = (n^3 - n) + 3n(n + 1).$ One of $n$ or $n + 1$ is even so $n(n + 1)$ must be even and thus two divides $3n(n + 1)$ and 3 also divides that factor. Thus we can see that six divides $n^3 - n$ for all non-negative integers. Hence $P(n)$ holds and thus we can conclude that $P(n)$ implies $P(n + 1)$
+\end{solution}
+
+\begin{problem} (10 points) 
+Section 5.1, Exercise 50, page 352
+\end{problem}
+\begin{solution}
+The base case is incorrect and thus the proof by induction is incorrect.
+\end{solution}
+
+\goodbreak
+\checklist
+\end{document}
